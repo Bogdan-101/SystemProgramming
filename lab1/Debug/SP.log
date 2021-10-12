@@ -1,0 +1,4 @@
+﻿  SP.cpp
+D:\repos\SystemProgramming\SP\SP.cpp(45,5): warning C4552: '!': result of expression not used
+D:\repos\SystemProgramming\SP\SP.cpp(115,9): warning C4101: 'hdc': unreferenced local variable
+  SP.vcxproj -> D:\repos\SystemProgramming\SP\Debug\SP.exe
