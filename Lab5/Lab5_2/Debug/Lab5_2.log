@@ -1,0 +1,8 @@
+﻿  Lab5_2.cpp
+D:\repos\SystemProgramming\Lab5\Lab5_2\Lab5_2.cpp(201,44): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+D:\repos\SystemProgramming\Lab5\Lab5_2\Lab5_2.cpp(202,44): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+D:\repos\SystemProgramming\Lab5\Lab5_2\Lab5_2.cpp(204,46): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+D:\repos\SystemProgramming\Lab5\Lab5_2\Lab5_2.cpp(205,44): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+D:\repos\SystemProgramming\Lab5\Lab5_2\Lab5_2.cpp(120,15): warning C4101: 'wmEvent': unreferenced local variable
+D:\repos\SystemProgramming\Lab5\Lab5_2\Lab5_2.cpp(120,9): warning C4101: 'wmId': unreferenced local variable
+  Lab5_2.vcxproj -> D:\repos\SystemProgramming\Lab5\Lab5_2\Debug\Lab5_2.exe

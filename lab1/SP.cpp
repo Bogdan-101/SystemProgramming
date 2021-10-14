@@ -120,7 +120,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_CREATE:
     {
         GetClientRect(hWnd, &rc);
-        textMessage = { (rc.right - rc.left) / 2, (rc.bottom - rc.top) / 2, LPTSTR(L"Want to sell garage: +375785623415") };
+        textMessage = { (rc.right - rc.left) / 2, (rc.bottom - rc.top) / 2, LPTSTR(L"Эпилептикам привет") };
         break;
     }
     case WM_COMMAND:
@@ -155,6 +155,17 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_PAINT:
     {
         HDC hdc = BeginPaint(hWnd, &ps);
+        int random = (rand() % 3) + 1;
+        if (random == 1) {
+            SetTextColor(hdc, 0x000000FF);
+        }
+        else if (random == 2){
+            SetTextColor(hdc, 0x0000FF00);
+        }
+        else if (random == 3) {
+            SetTextColor(hdc, 0x00FF0000);
+        }
+        // SetTextColor(hdc, 0x00000000 + random);
         GetClientRect(hWnd, &rc);
         TextOut(hdc, textMessage.x, textMessage.y, textMessage.str, _tcsclen(textMessage.str));
         EndPaint(hWnd, &ps);

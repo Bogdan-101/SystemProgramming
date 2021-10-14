@@ -1,1 +1,2 @@
 D:\repos\SystemProgramming\SP\Debug\SP.exe
+D:\repos\SystemProgramming\lab1\Debug\SP.exe

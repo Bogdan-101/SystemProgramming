@@ -1,0 +1,3 @@
+﻿  RegistryService.cpp
+D:\repos\SystemProgramming\Lab9\RegistryService.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+  Lab9.vcxproj -> D:\repos\SystemProgramming\Lab9\Debug\Lab9.exe

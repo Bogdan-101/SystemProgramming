@@ -1,0 +1,4 @@
+﻿  Lab3.cpp
+D:\repos\SystemProgramming\Lab3\Lab3.cpp(233,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\repos\SystemProgramming\Lab3\Lab3.cpp(240,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Lab3.vcxproj -> D:\repos\SystemProgramming\Lab3\Debug\Lab3.exe
